@@ -12,4 +12,9 @@
         toast.play();
         $('#toast').toast({ autohide: false }).toast('show');
     });
+    $(document).on('keydown', (e) => {
+        if (e.key == 'Escape') {
+            $('#toast').toast('hide');
+        }
+    });
 });
