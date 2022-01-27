@@ -1,4 +1,4 @@
-﻿﻿﻿$(function(){
+﻿﻿$(function(){
     // preload audio
     var toast = new Audio('media/toast.wav');
     $('.code').on('click', function(e) {
